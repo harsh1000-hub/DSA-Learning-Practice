@@ -33,6 +33,9 @@ int main(){
     for(int i=0;i<3;i++){
     	cout<<p_array[i].first<<" "<<p_array[i].second<<endl;
     }
-
+    // take input in pair
+    pair<int,int> pair1;
+    cin>>pair1.first;
+    cout<<pair1.first<<endl;
 	return 0;
 }
